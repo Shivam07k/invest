@@ -27,11 +27,11 @@ function InvestWithUs() {
   ];
 
   const images = [
-    process.env.PUBLIC_URL + "/images/invest1.jpg",
-    process.env.PUBLIC_URL + "/images/invest2.jpg",
-    process.env.PUBLIC_URL + "/images/invest3.jpg",
-    process.env.PUBLIC_URL + "/images/invest4.jpg",
-    process.env.PUBLIC_URL + "/images/invest5.jpg",
+    "/images/invest1.jpg",
+    "/images/invest2.jpg",
+    "/images/invest3.jpg",
+    "/images/invest4.jpg",
+    "/images/invest5.jpg",
   ];
 
   useEffect(() => {
@@ -248,21 +248,21 @@ function InvestWithUs() {
         <div className="grid md:grid-cols-3 gap-6">
           {[
             {
-              image: process.env.PUBLIC_URL + "/images/impact1.jpg",
+              image: "/images/impact1.jpg",
               title: "Support Safe Transportation Initiatives",
               description:
                 "Partner with NGOs to provide safe rides at night.Offer free or discounted rides during emergencies,especially for women,elderly,or disabled people",
               link: "#",
             },
             {
-              image: process.env.PUBLIC_URL + "/images/impact2.jpg",
+              image: "/images/impact2.jpg",
               title: "Enviroment Contributions",
               description:
                 "Shift parts of their fleet to electric vechile and promote greener transportation",
               link: "#",
             },
             {
-              image: process.env.PUBLIC_URL + "/images/impact3.jpg",
+              image: "/images/impact3.jpg",
               title: "Charity Drives",
               description:
                 "Hold periodic free ride days where customers can donate instead of paying fares",
